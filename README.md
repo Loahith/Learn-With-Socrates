@@ -387,7 +387,7 @@ Open your browser at **[http://localhost:5173](http://localhost:5173)**.
 
 ## 👤 Author
 
-**Loahith Vijayakumar**
+**Loahith V**
 - GitHub: [@Loahith](https://github.com/Loahith)
 - Project Repository: [Learn-With-Socrates](https://github.com/Loahith/Learn-With-Socrates.git)
 
