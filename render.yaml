@@ -24,12 +24,13 @@ services:
       - key: CORS_ORIGINS
         sync: false
 
-  # Frontend React SPA
-  - type: static_site
+  # Frontend React SPA (Static Site on CDN)
+  - type: web
+    runtime: static
     name: socrates-frontend
     rootDir: frontend
     buildCommand: npm install && npm run build
-    staticPublishPath: dist
+    staticPublishPath: ./dist
     routes:
       - type: rewrite
         source: /*
